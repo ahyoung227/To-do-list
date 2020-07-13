@@ -1,0 +1,32 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahyoung227/To-do-list.git"
+  },
+  "author": "AhyoungKim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahyoung227/To-do-list/issues"
+  },
+  "homepage": "https://github.com/ahyoung227/To-do-list#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "source-map-loader": "^1.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "date-fns": "^2.14.0",
+    "thedatepicker": "^0.7.0"
+  }
+}

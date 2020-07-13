@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&family=Roboto+Mono&display=swap');
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #393e46;
+    color: white;
+    font-family: 'Bangers', cursive;
+    line-height: 50px;
+    z-index: 1;
+}
+
+#logo {
+    font-size: 35px;
+    position: absolute;
+    left: 20px;
+}
+
+.side-bar {
+    position: absolute;
+    top: 50px;
+    width: 270px;
+    height: 100%;
+    background: #32e0c4;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.creation {
+    display: flex;
+    margin: 10px;
+    font-size: 23px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#plus {
+    font-size: 40px;
+    color:black;
+}
+
+.add-task, .edit-task {
+    width: 340px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    padding: 13px;
+    position: absolute;
+    left: 255px;
+    top: 5px;
+    z-index: 2;   
+}
+
+.edit-task {
+    background-color: rgb(187, 186, 186);
+    left: 255px;
+    top: 5px;
+}
+
+#title-input, #edit-title-input {
+    width: 170px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#title-button, #title-cancel-button, #edit-title-button, #edit-title-cancel-button {
+    width: 50px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#title-cancel-button, #edit-title-cancel-button {
+    width: 70px;
+}
+
+.card {
+    width: 250px;
+    height: 100px;
+    background-color: darkcyan;
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.edit {
+    float: right;
+    margin: 10px;
+}
+
+#title {
+    clear: right;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
+  }
+
+.contents {
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    top: 50px;
+    left: 270px;
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.add-button {
+    margin: 20px;
+    font-size: 23px;
+}
+
+.task-creation {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 130px;
+    height: 30px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+#task-input {
+    display: block;
+    width: 50%;
+    height: 30px;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+#my-input {
+    height: 30px;
+}
+
+#calendar {
+    height: 30px;
+}
+
+.input-buttons {
+    display: flex;
+}
+
+#add-subtask, #cancel-subtask {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: block;
+}
+
+#cancel-subtask {
+    margin-left: 10px;
+}
+
+.lists {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    width: 61%;
+}
+
+.lists > li {
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.priority {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.fa-trash-o {
+    float: right;
+    margin-left: 30px;
+}
+
+.due {
+    float: right;
+}
+
+.due > input {
+    height: 30px;
+}
+
+
+.fa-edit {
+    font-size:15px;
+}
+
+.fa-trash {
+    font-size:15px;
+}

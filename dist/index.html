@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To-do-list</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/the-datepicker.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="/dist/the-datepicker.min.js"></script>
+
+    </head>
+    <body>
+        <div class="header">
+            <p id="logo">hello Todos</p>                
+        </div>
+        <div class="side-bar">
+            <div class="creation">
+                <div class="creation">Add a task-set</div>
+                <i id="plus" class="fa fa-plus-circle"></i>
+            </div>
+
+            <div class="add-task">
+                <input id="title-input" type="text" placeholder="Add Task-set title" required>
+                <button id="title-button">Add</button>
+                <button id="title-cancel-button">Cancel</button>
+            </div>
+            <div class="edit-task">
+                <input id="edit-title-input" type="text" placeholder="Edit Task-set title" required>
+                <button id="edit-title-button">Edit</button>
+                <button id="edit-title-cancel-button">Cancel</button>
+            </div>
+            
+            <div class= "card-area">
+                <!-- <div class="card">   
+                    <div class="edit">
+                        <i class='fas fa-edit card-edit' style='font-size:15px'></i>
+                        <i class='fas fa-trash card-edit' style='font-size:15px'></i>
+                    </div>
+                    <h1 id="title">Hello</h1>
+                </div> -->
+            </div>
+
+        </div>
+        <div class="contents" >
+            <div class="container">
+                <div class="add-button">
+                    <i class="fa fa-plus-square"></i> Add a sub-task
+                </div>
+
+                <div class="input-field">
+                    <form class="task-creation">
+                        <label>
+                            <select id="priority" required>
+                                <option value="🟥">🟥 Urgent</option>
+                                <option value="🟧 ">🟧 Important</option>
+                                <option value="🟦">🟦 Normal</option>
+                            </select>
+                        </label>
+                        <input id="task-input" type="text" placeholder="Type a sub-task" required>
+                        <div>
+                            <input type="text" id="my-input" required>
+                        </div>
+                        
+                    </form>
+                    
+
+                    <div class="input-buttons">
+                        <button id="add-subtask" onclick="addSubTask()">Add</button>
+                        <button id="cancel-subtask">Cancel</button>
+                    </div>
+                </div> 
+
+
+                <ul class="lists">        
+                </ul>
+            </div>
+        </div>
+        <script src="main.js" async defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </body>
+</html>
+
