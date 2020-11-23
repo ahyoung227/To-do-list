@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<img src="src/img/todolist.png" width="500px" height="300px"></a>
+<img src="dist/img/todolist.png" width="500px" height="300px"></a>
 
 ### Built With
 
