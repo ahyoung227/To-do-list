@@ -139,8 +139,6 @@ cancelSubtask.addEventListener("click", () => {
 
 })
 
-
-
 window.toggleDone = function(e) {
     let taskIndex= e.target.dataset.index;
     let test = taskSets[setIndex].subTasks[taskIndex]
