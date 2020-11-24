@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-<p> This is a simple ‘todos’ list app by using factories or constructors/classes to generate them. It has a title, dueDate and priority and checklist. When a user first opens the app, there will have some sort of ‘default’ project to which all of their todos are put. Users should be able to create new projects and choose which project their todos go into.
+<p> This is a simple ‘todos’ list app by using factory function to generate them. It has a title, dueDate, priority and checklist. When a user first opens the app, there will have some sort of ‘default’ project to which all of their todos are put. Users should be able to create new projects and choose which project their todos go into.
 The User Interface is theo the following:
  - view all projects
  - view all todos in each project
